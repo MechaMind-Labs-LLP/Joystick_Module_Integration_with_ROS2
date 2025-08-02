@@ -64,20 +64,20 @@ source install/setup.bash
 
 * VRx → A0
 * VRy → A1
-* SW → D2 (optional button)
+* SW → D3 (optional button)
 
 **Upload the following code using Arduino IDE:**
 
 ```cpp
 void setup() {
-  Serial.begin(9600);
-  pinMode(2, INPUT_PULLUP);  // Button
+  Serial.begin(115200);
+  pinMode(3, INPUT_PULLUP);  // Button
 }
 
 void loop() {
   int xVal = analogRead(A0);
   int yVal = analogRead(A1);
-  int btn = digitalRead(2);
+  int btn = digitalRead(3);
 
   Serial.print(xVal);
   Serial.print(",");
@@ -85,7 +85,7 @@ void loop() {
   Serial.print(",");
   Serial.println(btn);
 
-  delay(100);  // Adjust as needed
+  delay(10);  // Adjust as needed
 }
 ```
 
