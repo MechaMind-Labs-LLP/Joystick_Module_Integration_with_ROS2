@@ -285,5 +285,3 @@ Move your joystick and watch 🐢 `turtle1` move in real time!
 MIT License.
 
 ---
-
-Let me know if you want this as a downloadable `.zip`, GitHub repo scaffold, or launch file too 🚀
