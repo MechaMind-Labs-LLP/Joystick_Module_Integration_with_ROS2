@@ -308,12 +308,6 @@ Move your joystick and watch 🐢 `turtle1` move in real time!
 
 ---
 
-## 📸 Demo Screenshot (Optional)
-
-*Add a screenshot or video of Turtlesim moving with joystick input.*
-
----
-
 ## 📃 License
 
 MIT License.
