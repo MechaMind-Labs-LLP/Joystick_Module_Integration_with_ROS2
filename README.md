@@ -103,13 +103,13 @@ ros2 pkg create joy_controller --build-type ament_python --dependencies rclpy ge
 ### 📁 Directory Structure:
 
 ```
-joystick_serial/
-├── joystick_serial
+joy_controller/
+├── joy_controller
 │   └── joystick_node.py
 ├── package.xml
 ├── setup.py
 └── resource/
-    └── joystick_serial
+    └── joy_controller
 ```
 
 ### ✏️ `joystick_node.py`
@@ -246,7 +246,7 @@ ros2 run turtlesim turtlesim_node
 
 ```bash
 source ~/joy_ws/install/setup.bash
-ros2 run joystick_serial joystick_node
+ros2 run joy_controller joystick_node
 ```
 
 Move your joystick and watch 🐢 `turtle1` move in real time!
