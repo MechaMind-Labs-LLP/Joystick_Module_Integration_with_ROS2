@@ -1,7 +1,3 @@
-Here's a full, detailed `README.md` for your **Joystick\_Module\_Integration\_with\_ROS2** project, covering installation, workspace setup, communication with Arduino, publishing to `turtle1/cmd_vel`, ROS 2 node, package setup, Arduino code, and useful terminal commands.
-
----
-
 # 🕹️ Joystick Module Integration with ROS 2
 
 This project demonstrates how to integrate a joystick module with a **ROS 2** environment. It involves reading analog joystick input (X, Y axes, and optional button press) from an Arduino, sending it over **Serial**, and using a **ROS 2 Python node** to read and publish that data to `turtle1/cmd_vel`, allowing joystick control of **Turtlesim**. 🐢
