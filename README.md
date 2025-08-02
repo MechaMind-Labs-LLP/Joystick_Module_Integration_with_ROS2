@@ -203,7 +203,7 @@ setup(
     license='MIT',
     entry_points={
         'console_scripts': [
-            'joystick_node = joystick_serial.joystick_node:main',
+            'joystick_node = joy_controller.joystick_node:main',
         ],
     },
 )
