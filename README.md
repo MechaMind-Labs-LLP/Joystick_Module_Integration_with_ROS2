@@ -257,6 +257,7 @@ Move your joystick and watch 🐢 `turtle1` move in real time!
 
 | Command                                                       | Description                            |
 | ------------------------------------------------------------- | -------------------------------------- |
+| `ros2 node list`                                              | List all available nodes               |
 | `ros2 topic list`                                             | List all available topics              |
 | `ros2 topic echo /turtle1/cmd_vel`                            | View velocity commands being published |
 | `ros2 run turtlesim turtle_teleop_key`                        | Manual keyboard control                |
