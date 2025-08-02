@@ -136,9 +136,9 @@ class JoystickSerialToTurtle(Node):
         # Serial connection
         try:
             self.arduino_ = serial.Serial(port=self.port_, baudrate=self.baudrate_, timeout=0.1)
-            self.get_logger().info(f"✅ Connected to Arduino on {self.port_}")
+            self.get_logger().info(f"Connected to Arduino on {self.port_}")
         except serial.SerialException:
-            self.get_logger().error(f"❌ Could not connect to Arduino on {self.port_}")
+            self.get_logger().error(f"Could not connect to Arduino on {self.port_}")
             exit(1)
 
         # Publisher
