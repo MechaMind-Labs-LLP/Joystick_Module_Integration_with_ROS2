@@ -97,7 +97,7 @@ Inside `joy_ws/src`, create a package:
 
 ```bash
 cd ~/joy_ws/src
-ros2 pkg create --build-type ament_python --dependencies rclpy geometry_msgs joystick_serial
+ros2 pkg create --build-type ament_python --dependencies rclpy geometry_msgs
 ```
 
 ### 📁 Directory Structure:
