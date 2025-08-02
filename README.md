@@ -85,7 +85,7 @@ void loop() {
   Serial.print(",");
   Serial.println(btn);
 
-  delay(10);  // Adjust as needed
+  delay(50);  // Adjust as needed
 }
 ```
 
