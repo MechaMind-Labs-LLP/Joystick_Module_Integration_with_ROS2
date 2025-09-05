@@ -311,6 +311,6 @@ Move your joystick and watch 🐢 `turtle1` move in real time!
 ## 🙌 Credits
 
 Maintained by **[Curious-Utkarsh](https://github.com/Curious-Utkarsh)**
-Inspired by real-world **edge-avoidance robotics** applications.
+Inspired by real-world **joystick-application in robotics.**
 
 ---
