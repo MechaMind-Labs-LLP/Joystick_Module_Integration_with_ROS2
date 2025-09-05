@@ -308,8 +308,9 @@ Move your joystick and watch 🐢 `turtle1` move in real time!
 
 ---
 
-## 📃 License
+## 🙌 Credits
 
-MIT License.
+Maintained by **[Curious-Utkarsh](https://github.com/Curious-Utkarsh)**
+Inspired by real-world **edge-avoidance robotics** applications.
 
 ---
